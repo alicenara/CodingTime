@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sugasteroids</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="play">Jugar</string>
+    <string name="config">Configuració</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="options">Opcions</string>
+    <string name="exit">Sortir</string>
+    <string name="titleApp">Asteroids</string>
+    <string name="howto">Instruccions</string>
+
+</resources>

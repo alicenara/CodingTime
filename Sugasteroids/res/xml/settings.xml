@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="main_preferences" >
+    
+    <CheckBoxPreference 
+        android:key="music"
+        android:title="Reproduir música"
+        android:summary="Es reprodueix música de fons"
+        android:defaultValue="1"/>
+    <CheckBoxPreference 
+        android:key="sounds"
+        android:title="Reproduir efectes sonors"
+        android:summary="S'activen els efectes de so"
+        android:defaultValue="1"/>
+    <ListPreference
+        android:key="layout_style"
+        android:title="Orientació de la pantalla"
+        android:summary="S'escull l'orientació de la pantalla"
+        android:entries="@array/layout_style"
+        android:entryValues="@array/layout_style_values"
+        android:defaultValue="0"/>    
+	<ListPreference
+        android:key="game_difficulty"
+        android:title="Dificultat del joc"
+        android:summary="Per escollir el nivell de dificultat"
+        android:entries="@array/game_difficulty"
+        android:entryValues="@array/game_difficulty_values"
+        android:defaultValue="1"/>
+	<Preference 
+	    android:summary="S'esborren les puntuacions" 
+	    android:title="Reset de puntuacions"/>
+</PreferenceScreen>
